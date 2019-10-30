@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width: 1500px;
+    background: #000;
+    display: flex;
+    height: 85px;
+}
+.header__logo{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 55px;
+    margin-left: 180px;
+}
+nav{
+    margin-top: 55px;
+    margin-left: 440px;
+}
+.topnav a{
+    color:#fff;
+    text-align: center;
+    padding-right: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.topnav a:hover{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fcac45;    
+} 
+.topnav .icon{
+    display: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+}
+main .main__name{
+    background: #000;
+    text-align: center;
+    padding: 295px 0 410px 0;
+}
+main .main__name p{
+    color: #999999;
+    font-size: 20px;
+}
+main .main__name h1{
+    color: #999999;
+    font-size: 44px;
+}
+main .main__name h1:after{
+    display: none;
+}
+
+.sciences{
+    color: #fcac45;
+}
+
