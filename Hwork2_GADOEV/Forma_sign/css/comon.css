@@ -1,0 +1,99 @@
+﻿*{
+    
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #132048;
+}
+/**************************/
+/*     Отцентрирование    */
+/**************************/
+.sentr{
+    width: 300px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/**************************/
+/*      Стил формы        */
+/**************************/
+.form__login{
+    height: 200px;
+    background: #133337;
+    border: 3px solid #979797;
+    padding: 25px 50px 25px 50px; 
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+span{
+    color: red;
+}
+/**************************/
+/*     Стил input-ов      */
+/**************************/
+.form__inp1 input{
+    background: #e2e2e2;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 3px 3px 3px 3px;
+}
+form input:focus{
+    border: 2px solid #4CAF50;
+}
+.form__inp1 input:hover{
+    background: #fff;
+    border: 3px solid green;
+}
+.form__inp2 input{
+    background: #e2e2e2;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 3px 3px 3px 3px;
+}
+.form__inp2 input:hover{
+    background: #fff;
+    border: 3px solid green;
+}
+/**************************/
+/*        Кнопка          */
+/**************************/
+.form__inp3 input:focus {
+    border: 3px solid #4CAF50;
+}
+.form__inp3 input{
+    background: #02ff89;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 8px;
+    font-size: 15px;
+}
+.form__inp3 input:hover{
+    background: #cc0303;
+    color: #fff;
+    border: 2px solid green;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+/**************************/
+/*    Вход/Регистрация    */
+/**************************/
+.form__login p a{
+    text-decoration: none;
+    color: #fff ;
+    font-size: 15px;
+}
+.form__login p{
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.form__login p a:hover{
+    color: #f80439;
+    font-size: 20px;
+}
